@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    gcp:
+      project-id: ${PROJECT_ID}
+
+pubsub:
+  topic: ${TOPIC}
+  subscription: ${SUBSCRIPTION}
